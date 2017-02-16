@@ -10,7 +10,7 @@ To use this plugin, user has to have Jenkins local environment or the access to 
 
 ### Set up IBM Bluemix Toolchain with DevOps Insights
 
-Click [here](https://console.stage1.ng.bluemix.net/devops/create) to create a toolchain and add **DevOps Insights** service to it.
+Click [here](https://console.ng.bluemix.net/devops/create) to create a toolchain and add **DevOps Insights** service to it.
 
 ### Installing the plugins
 

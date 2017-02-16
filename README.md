@@ -37,14 +37,14 @@ You can go to the [control center](https://control-center.ng.bluemix.net/) to vi
  - For the Result file location, specify your result file location. If you don't have any result file generated, leave this field empty and the plugin will upload a default result file based on the status of current test job
  
      Here are some example configurations:
-     ![Upload Build Information](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Build-Info.png "Publish Build Information to DRA")
-     ![Upload Test Result](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
-     ![Upload Deployment Information](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
+     ![Upload Build Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Build-Info.png "Publish Build Information to DRA")
+     ![Upload Test Result](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
+     ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
 
 3. (Optional) If you want to have DevOps Insights policy gates to control the downstream deploy job, you can choose the "Evaluate Gate Policy" option in the **Publish test result to DevOps Insights** and choose the policy or add another post-build action with the type **DevOps Insights Gate** and complete the required fields. You can specify the scope of test result for Build, Deploy or all environment. The gate will not stop triggering the downstream job if the test job fails to meet the policy that you define in the Control Center unless you check the "*Fail the build based on the policy rules*"
     
     Here is an example gate configuration:
-    ![DevOps Insights Gate](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")
+    ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")
 
 4. Click **Apply** and then **Save**.
 5. To run the project, click **Build Now** from the project page

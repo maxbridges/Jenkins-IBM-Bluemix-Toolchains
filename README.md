@@ -10,6 +10,7 @@ You must have access to a local Jenkins project or to a server that is running a
 
 ### Creating a Bluemix Continuous Delivery toolchain
 
+
 Before you can integrates DevOps Insights with a Jenkins project, you must create an IBM® Bluemix Continuous Delivery toolchain. Toolchains provide you with a central place to adminster and integrate tools for DevOps projects. If you'd like to learn more about Continuous Delivery, see [its documentation](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/cd_about.html).
 
 Click [here](https://console.ng.bluemix.net/devops/create) to create a toolchain. After you create the toolchain, add the **DevOps Insights** service to it. See [the DevOps Insights documentation](https://console.ng.bluemix.net/docs/services/DevOpsInsights/index.html) for more about adding the service to your toolchain. 

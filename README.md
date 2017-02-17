@@ -45,7 +45,7 @@ As a general workflow:
      ![Upload Test Result](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
      ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
 
-3. _(Optional)_: If you want to have DevOps Insights policy gates to control the downstream deploy job, choose the "Evaluate Gate Policy" option in the **Publish test result to DevOps Insights** post-build action. Choose the policy you want, or add another post-build action with the type **DevOps Insights Gate** and complete the required fields. You can specify the scope of test results for Build, Deploy or all environments. Check **Fail the build based on the policy rules** to let this action to prevent downstream deployments.
+3. _(Optional)_: If you want to use DevOps Insights policy gates to control a downstream deploy job, choose the "Evaluate Gate Policy" option in the **Publish test result to DevOps Insights** post-build action. Choose the policy you want, or add another post-build action with the type **DevOps Insights Gate** and complete the required fields. Specify the scope of test results for Build, Deploy or all environments. Check **Fail the build based on the policy rules** to allow this action to prevent downstream deployments.
     
     Here is an example gate configuration:
     ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")

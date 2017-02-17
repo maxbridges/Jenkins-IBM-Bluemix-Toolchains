@@ -19,9 +19,9 @@ Click [here](https://console.ng.bluemix.net/devops/create) to create a toolchain
 
   Install the DevOps Insights plugin in your Jenkins project:
 
-  1. [Download the IBM DevOps Insight plugin installation file (.hpi)](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/release/target/dra.hpi) from the plugin's GitHub repository.
-  2. In your Jenkins installation, click **Manage Jenkins**, click **Manage Plugins**, and then click the **Advanced** tab.
-  3. Click **Choose File** and select the DevOps Insights plugin installation file.
+  1. If you are an IBM employee, download it from [here](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/release/target/dra.hpi). Otherwise contact jichen@us.ibm.com or aggarwav@us.ibm.com to get the plugin.
+  2. In your Jenkins installation, click **Manage Jenkins**, select **Manage Plugins**, and select the **Advanced** tab.
+  3. Click **Choose File** and select the DevOps Insight plugin installation file.
   4. Click **Upload**.
   5. Restart Jenkins and verify that the plugin was installed successfully.
 

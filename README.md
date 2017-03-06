@@ -1,4 +1,4 @@
-# IBM Bluemix DevOps plugin
+# IBM Cloud DevOps Plugin
 
 This plugin provides customized build steps and statuses so that you can integrate IBM&reg; Cloud DevOps Insights with Jenkins projects. DevOps Insights aggregates and analyzes the results from unit tests, functional tests, and code-coverage tools to determine whether your code meets predefined policies at gates in your deployment process. If your code does not meet or exceed a policy, the deployment is halted, preventing risky changes from being released. You can use DevOps Insights as a safety net for your continuous delivery environment, a way to implement and improve quality standards over time, and a data visualization tool to help you understand your project's health.
 

@@ -73,9 +73,8 @@ After the plugin is installed, you can integrate DevOps Insights into your Jenki
 
     
 ## 4. (Optional) Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)
-If you want your Jenkins jobs to send notifications to Slack or PagerDuty using configuration in your toolchain, follow these steps.
 
-1. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
+Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 
    **Example configurations**

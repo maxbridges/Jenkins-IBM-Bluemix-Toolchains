@@ -14,7 +14,7 @@ Before you can integrate DevOps Insights with a Jenkins project, you must create
 
 2. After you create the toolchain, add DevOps Insights to it. For instructions, see the [DevOps Insights documentation](https://console.ng.bluemix.net/docs/services/DevOpsInsights/index.html). 
 
-## 2. Install the plugin
+## 4. Install the plugin
 
 In your Jenkins project, install the plugin. 
 
@@ -23,8 +23,21 @@ In your Jenkins project, install the plugin.
   3. Click **Choose File** and select the IBM Bluemix DevOps plugin installation file. 
   4. Click **Upload**.
   5. Restart Jenkins and verify that the plugin was installed.
+  
+## 3. Integrating DevOps Continuous Delivery with your Jenkins project
 
-## 3. Integrate DevOps Insights with your Jenkins project
+When the plugin is installed, you can integrate with DevOps Continuous Delivery toolchains.  For more information about DevOps Continuous Delivery toolchains, see [Getting started with Continuous Delivery](https://console.stage1.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
+
+You can configure your Jenkins jobs to send notifications to your DevOps Continuous Delivery toolchain.
+
+1. Configure the Jenkins tool integration by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
+
+**Note:** You do not need to follow the instructions to install this plugin.
+### Example configurations
+  - Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
+  - Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.ibm.com/oneibmcloud/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
+
+## 4. Integrate DevOps Insights with your Jenkins project
 
 After the plugin is installed, you can integrate DevOps Insights into your Jenkins project. 
 

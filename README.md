@@ -24,15 +24,14 @@ In your Jenkins project, install the plugin.
   4. Click **Upload**.
   5. Restart Jenkins and verify that the plugin was installed.
   
-## 3. Integrating DevOps Continuous Delivery with your Jenkins project
+## 3. Integrate DevOps Insights with your Jenkins project
 
-When the plugin is installed, you can integrate with DevOps Continuous Delivery toolchains.  For more information about DevOps Continuous Delivery toolchains, see [Getting started with Continuous Delivery](https://console.stage1.ng.bluemix.net/docs/services/ContinuousDelivery/index.html)
-
-You can configure your Jenkins jobs to send notifications to your DevOps Continuous Delivery toolchain.
+Configure your Jenkins jobs to send notifications to your toolchain.
 
 Configure the Jenkins tool integration by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 **Note:** You do not need to follow the instructions to install this plugin.
+
 ### Example configurations
   - Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
   - Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")

@@ -68,7 +68,7 @@ To view the dashboard or create a policy for the quality gate that you are going
 
 5. Run your Jenkins Build job.
 
-6. Go to the [Control Center](https://console.ng.bluemix.net/devops), select your toolchain and click on DevOps Insights card to view Deployment Risk dashboard.
+6. Go to the [IBM Bluemix DevOps](https://console.ng.bluemix.net/devops), select your toolchain and click on DevOps Insights card to view Deployment Risk dashboard.
 
     
 ## 4. Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)

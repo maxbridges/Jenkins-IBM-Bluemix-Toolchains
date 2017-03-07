@@ -14,7 +14,7 @@ Before you can integrate DevOps Insights with a Jenkins project, you must create
 
 2. After you create the toolchain, add DevOps Insights to it. For instructions, see the [DevOps Insights documentation](https://console.ng.bluemix.net/docs/services/DevOpsInsights/index.html). 
 
-## 4. Install the plugin
+## 2. Install the plugin
 
 In your Jenkins project, install the plugin. 
 

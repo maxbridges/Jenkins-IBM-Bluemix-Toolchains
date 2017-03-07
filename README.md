@@ -23,20 +23,8 @@ In your Jenkins project, install the plugin.
   3. Click **Choose File** and select the IBM Bluemix DevOps plugin installation file. 
   4. Click **Upload**.
   5. Restart Jenkins and verify that the plugin was installed.
-  
+
 ## 3. Integrate DevOps Insights with your Jenkins project
-
-Configure your Jenkins jobs to send notifications to your toolchain.
-
-Configure the Jenkins tool integration by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
-
-**Note:** You do not need to follow the instructions to install this plugin.
-
-### Example configurations
-  - Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
-  - Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
-
-## 4. Integrate DevOps Insights with your Jenkins project
 
 After the plugin is installed, you can integrate DevOps Insights into your Jenkins project. 
 
@@ -72,15 +60,22 @@ To view the dashboard or create a policy for the quality gate that you are going
    
    ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
 
-3. (Optional): If you want to use DevOps Insights policy gates to control a downstream deploy job, in the "Publish test result to DevOps Insights" post-build action, select the **Evaluate Gate Policy** check box. Choose a policy or add another post-build action that uses the DevOps Insights Gate type. Specify the scope of the test results. To allow the policy gates to prevent downstream deployments, select the **Fail the build based on the policy rules** check box. The following image shows an example configuration:
+4. (Optional): If you want to use DevOps Insights policy gates to control a downstream deploy job, in the "Publish test result to DevOps Insights" post-build action, select the **Evaluate Gate Policy** check box. Choose a policy or add another post-build action that uses the DevOps Insights Gate type. Specify the scope of the test results. To allow the policy gates to prevent downstream deployments, select the **Fail the build based on the policy rules** check box. The following image shows an example configuration:
 
     ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")
 
-4. Click **Apply** and **Save**.
+5. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
-5. To run the project, on the project page, click **Build Now**.
 
-6. After the build runs, go to the [control center](https://control-center.ng.bluemix.net/) to check your build status on the dashboard. If you gates are set up, you can also see DevOps Insights results on the Status page of current build.
+### Example configurations
+  - Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
+  - Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
+
+5. Click **Apply** and **Save**.
+
+6. To run the project, on the project page, click **Build Now**.
+
+7. After the build runs, go to the [control center](https://control-center.ng.bluemix.net/) to check your build status on the dashboard. If you gates are set up, you can also see DevOps Insights results on the Status page of current build.
 
 ## License
 

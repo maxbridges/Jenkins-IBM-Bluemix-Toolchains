@@ -1,14 +1,16 @@
 # IBM Cloud DevOps Plugin
 
-This plugin provides customized build steps and statuses so that you can integrate IBM&reg; Cloud DevOps Insights with Jenkins projects. DevOps Insights aggregates and analyzes the results from unit tests, functional tests, and code-coverage tools to determine whether your code meets predefined policies at gates in your deployment process. If your code does not meet or exceed a policy, the deployment is halted, preventing risky changes from being released. You can use DevOps Insights as a safety net for your continuous delivery environment, a way to implement and improve quality standards over time, and a data visualization tool to help you understand your project's health.
+With this Jenkins plugin, You can feed test results to DevOps Insights, add automated quality gates, and track your deployment risk.  You can also send your Jenkins job notifications to other tools in your toolchain, such as Slack and PagerDuty. To trace code in deployments, you can add deployment messages to your Git commits and your related Git or JIRA issues. You can also view your deployments on the Toolchain Connections page. 
+
+This plugin provides Post-Build Actions, CLIs to integrate IBM&reg; Cloud DevOps Insights with Jenkins projects. DevOps Insights aggregates and analyzes the results from unit tests, functional tests, code-coverage tools, static security code scans and dynamic security code scans to determine whether your code meets predefined policies at gates in your deployment process. If your code does not meet or exceed a policy, the deployment is halted, preventing risky changes from being released. You can use DevOps Insights as a safety net for your continuous delivery environment, a way to implement and improve quality standards over time, and a data visualization tool to help you understand your project's health.
 
 ## Prerequisites
 
-You must have access to a local Jenkins project or to a server that is running a Jenkins project.
+You must have access to a server that is running a Jenkins project.
 
 ## 1. Create a toolchain
 
-Before you can integrate DevOps Insights with a Jenkins project, you must create an toolchain. A *toolchain* is a set of tool integrations that support development, deployment, and operations tasks. The collective power of a toolchain is greater than the sum of its individual tool integrations. Toolchains are part of the IBM Bluemix&reg; Continuous Delivery service. To learn more about the Continuous Delivery service, see [its documentation](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/cd_about.html).
+Before you can integrate DevOps Insights with a Jenkins project, you must create a toolchain. A *toolchain* is a set of tool integrations that support development, deployment, and operations tasks. The collective power of a toolchain is greater than the sum of its individual tool integrations. Toolchains are part of the IBM Bluemix&reg; Continuous Delivery service. To learn more about the Continuous Delivery service, see [its documentation](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/cd_about.html).
 
 1. To create a toolchain, go to the [Create a Toolchain page](https://console.ng.bluemix.net/devops/create) and follow the instructions on that page. 
 
@@ -64,18 +66,21 @@ To view the dashboard or create a policy for the quality gate that you are going
 
     ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")
 
-5. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
+5. Click **Apply** and **Save**.
+
+6. Run your Jenkins Build job.
+
+7. Go to the [Control Center](https://console.ng.bluemix.net/devops), select your toolchain and click on DevOps Insights card to view Deployment Risk dashboard.
+
+    
+## 4. Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)
+1. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 
    **Example configurations**
   * Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
   * Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
 
-6. Click **Apply** and **Save**.
-
-7. To run the project, on the project page, click **Build Now**.
-
-8. Go to the [Control Center](https://console.ng.bluemix.net/devops/insights) to check the project status on the dashboard.
 
 ## License
 

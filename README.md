@@ -60,7 +60,7 @@ To view the dashboard or create a policy for the quality gate that you are going
    
    ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
 
-4. (Optional): If you want to use DevOps Insights policy gates to control a downstream deploy job, in the "Publish test result to DevOps Insights" post-build action, select the **Evaluate Gate Policy** check box. Choose a policy or add another post-build action that uses the DevOps Insights Gate type. Specify the scope of the test results. To allow the policy gates to prevent downstream deployments, select the **Fail the build based on the policy rules** check box. The following image shows an example configuration:
+4. (Optional): If you want to use DevOps Insights policy gates to control a downstream deploy job, add a post build action, **IBM Cloud DevOps Gate**. Choose a policy and specify the scope of the test results. To allow the policy gates to prevent downstream deployments, select the **Fail the build based on the policy rules** check box. The following image shows an example configuration:
 
     ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/DRA-Gate.png "DevOps Insights Gate")
 

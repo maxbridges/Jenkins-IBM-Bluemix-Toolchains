@@ -32,7 +32,6 @@ If you would like to make use Deployment Risk dashboard, follow these steps.
 
 After the plugin is installed, you can integrate DevOps Insights into your Jenkins project. 
 
-To view the dashboard or create a policy for the quality gate that you are going to use for your project, go to the [control center](https://control-center.ng.bluemix.net/).
 
 ###General workflow
 

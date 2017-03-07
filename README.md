@@ -54,22 +54,22 @@ To view the dashboard or create a policy for the quality gate that you are going
 
    **Example configurations**
    
-   ![Upload Build Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Build-Info.png "Publish Build Information to DRA")
+   ![Upload Build Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Build-Info.png "Publish Build Information to DRA")
    
-   ![Upload Test Result](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
+   ![Upload Test Result](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
    
-   ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
+   ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
 
 4. (Optional): If you want to use DevOps Insights policy gates to control a downstream deploy job, add a post build action, **IBM Cloud DevOps Gate**. Choose a policy and specify the scope of the test results. To allow the policy gates to prevent downstream deployments, select the **Fail the build based on the policy rules** check box. The following image shows an example configuration:
 
-    ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/DRA-Gate.png "DevOps Insights Gate")
+    ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")
 
 5. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 
    **Example configurations**
-  * Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
-  * Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
+  * Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
+  * Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
 
 6. Click **Apply** and **Save**.
 

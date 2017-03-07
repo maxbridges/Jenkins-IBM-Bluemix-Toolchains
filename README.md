@@ -67,7 +67,7 @@ To view the dashboard or create a policy for the quality gate that you are going
 5. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 
-### Example configurations
+**Example configurations**
   - Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
   - Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
 

@@ -26,7 +26,9 @@ In your Jenkins project, install the plugin.
   4. Click **Upload**.
   5. Restart Jenkins and verify that the plugin was installed.
 
-## 3. Integrate DevOps Insights with your Jenkins project
+## 3. (optional) Configure Jenkins jobs for Deployment Risk dashboard
+
+If you would like to make use Deployment Risk dashboard, follow these steps.
 
 After the plugin is installed, you can integrate DevOps Insights into your Jenkins project. 
 
@@ -71,7 +73,9 @@ To view the dashboard or create a policy for the quality gate that you are going
 6. Go to the [IBM Bluemix DevOps](https://console.ng.bluemix.net/devops), select your toolchain and click on DevOps Insights card to view Deployment Risk dashboard.
 
     
-## 4. Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)
+## 4. (Optional) Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)
+If you want your Jenkins jobs to send notifications to Slack or PagerDuty using configuration in your toolchain, follow these steps.
+
 1. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 

@@ -36,11 +36,11 @@ To view the dashboard or create a policy for the quality gate that you are going
 
 2. Add a post-build action for the corresponding type:
 
-   * For build jobs, use **Publish build information to DevOps Insights**.
+   * For build jobs, use **Publish build information to IBM Cloud DevOps**.
    
-   * For test jobs, use **Publish test result to DevOps Insights**.
+   * For test jobs, use **Publish test result to IBM Cloud DevOps**.
    
-   * For deployment jobs, use **Publish deployment information to DevOps Insights**.
+   * For deployment jobs, use **Publish deployment information to IBM Cloud DevOps**.
    
 3. Complete the required fields:
 

@@ -30,7 +30,7 @@ When the plugin is installed, you can integrate with DevOps Continuous Delivery 
 
 You can configure your Jenkins jobs to send notifications to your DevOps Continuous Delivery toolchain.
 
-1. Configure the Jenkins tool integration by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
+Configure the Jenkins tool integration by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 **Note:** You do not need to follow the instructions to install this plugin.
 ### Example configurations

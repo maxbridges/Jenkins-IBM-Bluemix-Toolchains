@@ -54,15 +54,15 @@ To view the dashboard or create a policy for the quality gate that you are going
 
    **Example configurations**
    
-   ![Upload Build Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Build-Info.png "Publish Build Information to DRA")
+   ![Upload Build Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Build-Info.png "Publish Build Information to DRA")
    
-   ![Upload Test Result](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
+   ![Upload Test Result](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Test-Result.png "Publish Test Result to DRA")
    
-   ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
+   ![Upload Deployment Information](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Upload-Deployment-Info.png "Publish Deployment Information to DRA")
 
 4. (Optional): If you want to use DevOps Insights policy gates to control a downstream deploy job, in the "Publish test result to DevOps Insights" post-build action, select the **Evaluate Gate Policy** check box. Choose a policy or add another post-build action that uses the DevOps Insights Gate type. Specify the scope of the test results. To allow the policy gates to prevent downstream deployments, select the **Fail the build based on the policy rules** check box. The following image shows an example configuration:
 
-    ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/master/screenshots/DRA-Gate.png "DevOps Insights Gate")
+    ![DevOps Insights Gate](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/DRA-Gate.png "DevOps Insights Gate")
 
 5. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 

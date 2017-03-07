@@ -75,7 +75,7 @@ To view the dashboard or create a policy for the quality gate that you are going
 
 7. To run the project, on the project page, click **Build Now**.
 
-8. After the build runs, go to the [control center](https://control-center.ng.bluemix.net/) to check your build status on the dashboard. If you gates are set up, you can also see DevOps Insights results on the Status page of current build.
+8. Go to the [Control Center](https://console.ng.bluemix.net/devops/insights) to check the project status on the dashboard.
 
 ## License
 

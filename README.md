@@ -1,6 +1,6 @@
 # IBM Cloud DevOps Plugin
 
-With this Jenkins plugin, You can feed test results to DevOps Insights, add automated quality gates, and track your deployment risk.  You can also send your Jenkins job notifications to other tools in your toolchain, such as Slack and PagerDuty. To help you figure out when code was deployed, the system can add deployment messages to your Git commits and your related Git or JIRA issues. You can also view your deployments on the Toolchain Connections page. 
+With this Jenkins plugin, You can publish test results to DevOps Insights, add automated quality gates, and track your deployment risk.  You can also send your Jenkins job notifications to other tools in your toolchain, such as Slack and PagerDuty. To help you figure out when code was deployed, the system can add deployment messages to your Git commits and your related Git or JIRA issues. You can also view your deployments on the Toolchain Connections page. 
 
 This plugin provides Post-Build Actions and CLIs to support this integration. DevOps Insights aggregates and analyzes the results from unit tests, functional tests, code-coverage tools, static security code scans and dynamic security code scans to determine whether your code meets predefined policies at gates in your deployment process. If your code does not meet or exceed a policy, the deployment is halted, preventing risky changes from being released. You can use DevOps Insights as a safety net for your continuous delivery environment, a way to implement and improve quality standards over time, and a data visualization tool to help you understand your project's health.
 
@@ -26,11 +26,12 @@ In your Jenkins project, install the plugin.
   4. Click **Upload**.
   5. Restart Jenkins and verify that the plugin was installed.
 
-## 3. Integrate DevOps Insights with your Jenkins project
+## 3. (optional) Configure Jenkins jobs for Deployment Risk dashboard
+
+If you would like to make use Deployment Risk dashboard, follow these steps.
 
 After the plugin is installed, you can integrate DevOps Insights into your Jenkins project. 
 
-To view the dashboard or create a policy for the quality gate that you are going to use for your project, go to the [control center](https://control-center.ng.bluemix.net/).
 
 ###General workflow
 
@@ -71,8 +72,9 @@ To view the dashboard or create a policy for the quality gate that you are going
 6. Go to the [IBM Bluemix DevOps](https://console.ng.bluemix.net/devops), select your toolchain and click on DevOps Insights card to view Deployment Risk dashboard.
 
     
-## 4. Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)
-1. Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
+## 4. (Optional) Configure Jenkins jobs to send notifications to tools in your toolchain (e.g., Slack, PagerDuty)
+
+Configure your Jenkins jobs to send notifications to your toolchain by following the instructions in the [Bluemix Docs](https://console.ng.bluemix.net/docs/services/ContinuousDelivery/toolchains_integrations.html#jenkins).
 
 
    **Example configurations**

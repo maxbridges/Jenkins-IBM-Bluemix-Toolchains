@@ -71,11 +71,11 @@ To view the dashboard or create a policy for the quality gate that you are going
   - Configuring the ICD_WEBHOOK_URL for job configurations: ![Set ICD_WEBHOOK_URL Parameter](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/Set-Parameterized-Webhook.png "Set Parameterized WebHook")
   - Configuring post-build actions for job notifications: ![Post-build Actions for WebHook notification](https://github.com/imvijay2007/Jenkins-IBM-Bluemix-Toolchains/blob/notification_1/screenshots/PostBuild-WebHookNotification.png "Configure WebHook Notification in Post-build Actions")
 
-5. Click **Apply** and **Save**.
+6. Click **Apply** and **Save**.
 
-6. To run the project, on the project page, click **Build Now**.
+7. To run the project, on the project page, click **Build Now**.
 
-7. After the build runs, go to the [control center](https://control-center.ng.bluemix.net/) to check your build status on the dashboard. If you gates are set up, you can also see DevOps Insights results on the Status page of current build.
+8. After the build runs, go to the [control center](https://control-center.ng.bluemix.net/) to check your build status on the dashboard. If you gates are set up, you can also see DevOps Insights results on the Status page of current build.
 
 ## License
 
